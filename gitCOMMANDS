@@ -1,0 +1,12 @@
+1.git init
+2.git add .
+3.git status
+4.git commit -m " Second"
+5.git config --global user.email "........@...."
+6.git config --global user.name "Usrname of github"
+7.git commit -m "second Commit"
+8.git remote add origin "repository url:https:....."
+9.git push origin main
+10.username:.........
+11.password: "generated token in classic"
+12.check
