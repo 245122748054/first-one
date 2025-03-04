@@ -1,0 +1,59 @@
+<html>
+	<title>Student Registration Form</title>
+	<center><h1>Student Registration Form</h1></center>
+	<body>
+		<form>
+			<table align="center" bgcolor="orange" cellspacing="10" border="40" cellpadding="6">
+			<tr><td>Name</td>
+				<td><input type="text" name="n" required></td>
+			</tr>
+			<tr><td>Branch</td>
+				<td><select required><option>SELECT</option>
+							<option>CSE</option>
+							<option>IT</option>
+							<option>ECE</option>
+							<option>EEE</option>
+							<option>CIVIL</option>
+							<option>MECH</option>
+					</select>
+				</td>
+			</tr>
+			<tr><td>Roll no</td>
+				<td><input type="text" name="r" required></td>
+			</tr>
+			<tr><td>Year</td>
+				<td><select required><option>SELECT</option>
+							<option>I</option>
+							<option>II</option>
+							<option>III</option>
+							<option>IV</option>
+					</select>
+				</td>
+			</tr>
+			<tr><td>Contact Number</td>
+				<td><input type="text" name ="cn" required></td>
+			</tr>
+			<tr><td>Gender</td>
+				<td><input type="radio" name="g" required>Male
+					<input type="radio" name="g" required>Female
+					<input type="radio" name="g" required>Transgender
+				</td>
+			</tr>
+			<tr><td>Address</td>
+				<td><textarea rows="7" cols="21" name="a" required></textarea></td>
+			</tr>
+			<tr><td>Skill Set</td>
+				<td><input type="checkbox" name="ss" required>C
+					<input type="checkbox" name="ss" required>Java
+					<input type="checkbox" name="ss" required>Python
+					<input type="checkbox" name="ss" required>C++
+				</td>
+			</tr>
+			<tr>
+				<td><input type="reset" name="r" value="Reset"></td>
+				<td><input type="submit" name="s" value="Submit"></td>
+			</tr>
+					
+		</form>
+	</body>
+</html>
